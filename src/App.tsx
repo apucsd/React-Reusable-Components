@@ -1,9 +1,13 @@
+import Button from "./components/ui/Button";
+import Container from "./components/ui/Container";
+
 function App() {
   return (
     <>
       <div className="flex items-center justify-center mt-20">
-        <h1>This is h1</h1>
-        <button className="btn">This is a button</button>
+        <Container>
+          <Button className={"bg-red-500"} outline={true}></Button>
+        </Container>
       </div>
     </>
   );
