@@ -6,7 +6,7 @@ function App() {
     <>
       <div className="flex items-center justify-center mt-20">
         <Container>
-          <Button className={"bg-red-500"} outline={true}></Button>
+          <Button variant="ghost"></Button>
         </Container>
       </div>
     </>
